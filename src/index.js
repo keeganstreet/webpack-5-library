@@ -1,3 +1,5 @@
+import http from "http";
+
 export default () => {
-  console.log("I am a library");
+  console.log(http);
 };
